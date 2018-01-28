@@ -16,6 +16,8 @@ workflow
 
 ## todo
 - edit/modify krita -> regen
+- composition normal map generater
 - tourise
 - wait for blender 2.8
 - material node bake workflow
+- node system

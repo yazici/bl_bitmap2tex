@@ -56,3 +56,4 @@ judge ssytem
 ## reference
 - animation node
 - https://squircleart.github.io/shading/normal-map-generation.html
+- https://en.wikipedia.org/wiki/Normal_mapping

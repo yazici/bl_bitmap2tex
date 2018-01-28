@@ -2,12 +2,11 @@ bl_info = {
     "name": "Bitmap2Tex",
     "author": "ywaby",
     "version": (0, 0, 1),
-    "blender": (2, 78),
+    "blender": (2, 79),
     "description": "generate texture from bitmap",
     "warning": "",
-    "wiki_url": "http://github.com/bl_bitmap2tex"
-                "Scripts/Add_Mesh/Planes_from_Images",
-    "tracker_url": "http://github.com",
+    "wiki_url": "http://github.com/bl_bitmap2tex",
+    "tracker_url": "http://github.com/bl_bitmap2tex",
     "support": "TESTING",
     "category": "Texture"
 }
