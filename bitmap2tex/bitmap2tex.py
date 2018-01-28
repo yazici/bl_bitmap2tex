@@ -98,7 +98,6 @@ class GenNormal(bpy.types.Operator):
         mat_nodes = prev_mat.node_tree.nodes
         mat_nodes.active = mat_nodes["Normal"]
         bpy.ops.object.bake(type='NORMAL',use_selected_to_active=False)
-        # bpy.ops.object.bake(type='NORMAL', filepath="/home/ywaby/Documents/myproject/blender/scripts/tex_gen/test.png", width=2048, height=512, save_mode='EXTERNAL', use_automatic_name=True, uv_layer="")                 
         return {"FINISHED"}
 
 class Bitmap2Tex_Tools(bpy.types.Panel):

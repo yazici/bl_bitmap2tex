@@ -4,7 +4,7 @@ use blender as pbr texture genarater.
 ## usage
 - install addon
 - save enable addon
-- enable [Node Wrangler](https://gregzaal.github.io/node-wrangler/)
+- enable bitmap2tex and [Node Wrangler](https://gregzaal.github.io/node-wrangler/)
 
 workflow
 - init project
