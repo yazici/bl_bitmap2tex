@@ -1,4 +1,4 @@
-bitmap2tex blender addon.  
+bitmap2tex is a blender addon.  
 use blender as pbr texture genarater.
 
 ## usage
