@@ -13,7 +13,7 @@ class package(BaseNode):
 
     def action(self):
         srcs = glob.glob("./bitmap2tex/**/*.py", recursive=True)
-        srcs.append("./bitmap2tex/tex-gen.blend")
+        srcs.append("./bitmap2tex/bitmap2tex_startup.blend")
         with zipfile.ZipFile('bitmap2tex.zip', 'w', zipfile.ZIP_DEFLATED) as tzip:
             for src in srcs:
                 tzip.write(src)
