@@ -1,10 +1,10 @@
-wait for blender 2.8
-
-## install
+bitmap2tex blender addon.
+use blender as pbr texture genarater.
 
 ## usage
-save enable addon
-
+- install addon
+- save enable addon
+- enable [Node Wrangler](https://gregzaal.github.io/node-wrangler/)
 
 workflow
 - init project
@@ -15,7 +15,7 @@ workflow
 - adjust 
 
 ## todo
-- bake normal
-- material node bake workflow
-- tourise
 - edit/modify krita -> regen
+- tourise
+- wait for blender 2.8
+- material node bake workflow

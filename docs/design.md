@@ -1,4 +1,4 @@
-bitmap2pbr texs
+bitmap2tex
 
 ## design
 function
@@ -54,6 +54,5 @@ judge ssytem
 - AI
 
 ## reference
-- AwesomeBump
-- instanBump
 - animation node
+- https://squircleart.github.io/shading/normal-map-generation.html
