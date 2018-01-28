@@ -69,6 +69,7 @@ class TexGen(bpy.types.Operator):
             file_format = TexGen.image_type.get(slot.format.file_format)
             tex_name = TexGen.tex_name_map.get(slot.path)
             tex_path = f"{base_path}/{slot.path}{bpy.context.scene.frame_current:0>4d}.{file_format}"
+            if not os.path.exists(tex_path): continue
             if tex_name is not None:    # rename
                 tex_real_path = f"{base_path}/{bitmap_name}_{tex_name}.{file_format}"
                 os.rename(tex_path, tex_real_path)
@@ -88,7 +89,7 @@ class TexGen(bpy.types.Operator):
         return {"FINISHED"}
 
 
-class GenNormal(bpy.types.Operator):
+class BakeNormal(bpy.types.Operator):
     """Bake Normal"""
     bl_label = "Bake normal"
     bl_idname = "bitmap2tex.bake_nor"
@@ -112,5 +113,4 @@ class Bitmap2Tex_Tools(bpy.types.Panel):
         layout = self.layout
         layout.operator(InitProject.bl_idname, icon="BLENDER")
         layout.operator(TexGen.bl_idname, icon="TEXTURE")
-        layout.operator(GenNormal.bl_idname, icon="TEXTURE")        
         layout.operator(EditStartup.bl_idname, icon="BLENDER")

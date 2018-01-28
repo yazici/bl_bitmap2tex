@@ -27,7 +27,6 @@ class link(BaseNode):
     """link project to blender addon path(need sudo)"""
 
     def action(self):
-
         src = os.path.join(project_path, "./bitmap2tex")
         link = os.path.abspath(src)
         target = os.path.join(addon_path, "./bitmap2tex")

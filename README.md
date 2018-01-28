@@ -1,4 +1,4 @@
-bitmap2tex blender addon.
+bitmap2tex blender addon.  
 use blender as pbr texture genarater.
 
 ## usage
@@ -16,7 +16,6 @@ workflow
 
 ## todo
 - edit/modify krita -> regen
-- composition normal map generater
 - tourise
 - wait for blender 2.8
 - material node bake workflow
