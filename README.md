@@ -6,17 +6,18 @@ use blender as pbr texture genarater.
 - save enable addon
 - enable bitmap2tex and [Node Wrangler](https://gregzaal.github.io/node-wrangler/)
 
-workflow
-- init project
-- save blend file
-- edit bitmap image
-- adjust comp
-- render
-- adjust 
+composition workflow
+1. init project
+2. save blend file
+3. edit bitmap image
+4. adjust material
+5. adjust composition
+6. tex gen
+7. adjust tex
 
 ## todo
 - edit/modify krita -> regen
-- tourise
+- docs
 - wait for blender 2.8
 - material node bake workflow
-- node system
+- bitmap2tex node system

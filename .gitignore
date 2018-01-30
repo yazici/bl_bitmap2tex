@@ -111,5 +111,5 @@ doc/
 *.zip
 *.png
 .vscode/
-./.pylintrc
-./docs/design.md
+.pylintrc
+docs/design.md
