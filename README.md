@@ -12,9 +12,9 @@ composition workflow
 7. adjust texture
 8. regenerate texture
 
-![](./docs/init.jpg)
-![](./docs/mat.jpg)
-![](./docs/texgen.jpg)
+<img src="./docs/init.jpg" height="400" alt="demo">
+<img src="./docs/mat.jpg" height="400" alt="demo">
+<img src="./docs/texgen.jpg" height="400" alt="demo">
 
 ## todo
 - wait for blender 2.8 eevee
